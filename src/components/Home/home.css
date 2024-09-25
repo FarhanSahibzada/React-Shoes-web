@@ -1,0 +1,24 @@
+.image {
+    height: 70rem;
+    position: absolute;
+    bottom: -560px;
+    left: 50%;
+    transform: translateX(-50%);
+    filter: drop-shadow(-1px 31px 15px #797575);
+    transition: all 0.2s ease;
+    z-index: 1;
+}
+
+@media (max-width : 550px) {
+    .image {
+        height: 40rem;
+        bottom: -120px;
+    }
+}
+
+@media (min-width : 551px) and (max-width : 920px) {
+    .image {
+        height: 60rem;
+        bottom: -280px;
+    }
+}

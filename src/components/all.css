@@ -1,0 +1,7 @@
+.navbar {
+    z-index: 10 ;
+    position: relative;
+}
+.card{
+    text-align: left;
+}
